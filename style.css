@@ -1,0 +1,190 @@
+*{box-sizing: border-box;
+}
+
+body,
+html {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 14px;
+      max-width: 1000px;
+    margin: 0px auto;
+    display: block;
+    line-height: 1.35em;
+    color: white;
+}
+
+
+/*changes font for every piece of text on the page*/
+body {
+/*    font-family: Oswald;*/
+    background-color: black; 
+}
+
+.container{
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+
+}
+
+div{
+    display: block;
+}
+
+.main{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Monoton', sans-serif;
+    text-align: block;
+    font-size: 3em;
+    font-weight: bold;
+    display: center ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+/*    border: 2px solid black;*/
+    text-align: block;
+    letter-spacing: 0.2em;
+    line-height: 1.2em;
+}
+
+.gif{
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    display: block;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-family: 'Michroma', sans-serif;
+    text-align: block;
+    font-size: 1.15em;
+    display: center; 
+    font-style: italic;
+    position: relative;
+    top: -0.5em;
+/*    border: 2px solid black;*/
+/*    text-align: block;*/
+    line-height:20px;
+      letter-spacing: 0.25em;
+      font-weight: bold;
+       line-height: 1.4em;
+
+}
+
+
+h3 {
+    font-family: 'Michroma', sans-serif;
+    display: block;
+    font-size: 1em;
+    font-weight: 300px;
+/* border: 2px solid black;*/
+/*    text-align: block;*/
+    line-height:5px;
+    color: #1ee35c;
+      letter-spacing: 0.25em;
+      font-weight: bold;
+       line-height: 1.4em;
+}
+
+h4{
+    font-family:'Michroma', sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+      letter-spacing: 0.25em;
+      font-weight: bold;
+       line-height: 1.4em;
+
+}
+
+h5{
+    font-family:'Michroma', sans-serif;
+    font-size: .90em;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+     line-height: 1.4em;
+}
+
+
+p{
+    font-family: 'Michroma', sans-serif;
+    text-align: block;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.figure{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+
+}
+iframe{
+    background-color: white;
+    display: block;
+}
+
+
+.main{
+    border: 2px solid white;
+}
+
+figcaption {
+    font-family: 'Michroma', sans-serif;
+    font-size: 0.90em;
+    padding: 8px;
+    text-align: center;
+/*    border: 2px solid black;*/
+/*    line-height: 1em;*/
+    display: block;
+    margin:auto;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 18em;
+    margin-right: 18em;
+    border-width: 1px;
+    border-style: inset;
+}
+
+/*.main_img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.background{
+    border: dotted;
+    background-color: lightpink;
+}
+
+@media(min-width: 681px}
+    .container{
+        max-width:900px;
+    }
+
+
+  
+   
+
